@@ -6,7 +6,6 @@ import TrafficLight from "./trafficlight";
 const Home = () => {
 	return (
 		<div className="container-fluid">
-			<div className="bg-black" style={{height: "10em", aspectRatio: "1/10", margin: "auto"}}></div>
 			<TrafficLight />
 		</div>
 	);
